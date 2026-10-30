@@ -1,7 +1,7 @@
 -- 1. Insert Sample Data for Testing
 INSERT INTO Customers (first_name, last_name, email, phone_number) 
-VALUES ('Shotayo', 'David', 'amina@example.com', '09035345672'),
-       ('Quadri', 'Suffianu', 'david@example.com', '08037654320');
+VALUES ('Shotayo', 'David', 'Shotayo@example.com', '09035345672'),
+       ('Quadri', 'Suffianu', 'Quadri@example.com', '08037654320');
 
 INSERT INTO Accounts (customer_id, account_number, balance) 
 VALUES (1, '0146456797', 150000.00),
