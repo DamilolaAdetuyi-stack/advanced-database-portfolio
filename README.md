@@ -9,6 +9,7 @@ Student Name: Damilola Adetuyi
 GitHub Repository Link: https://github.com/DamilolaAdetuyi-stack/advanced-database-portfolio
 
 **Executive Summary**
+
 The RichPay Fintech Platform is an enterprise-grade database solution designed to support secure, scalable, and high-performance financial transactions. This portfolio documents the complete lifecycle of the platform's data engine across five core areas: relational database design and normalization, query optimization, transactional concurrency control, NoSQL document integration, and cloud-distributed database architecture.
 
 **1. Relational Database Design and Normalization**
