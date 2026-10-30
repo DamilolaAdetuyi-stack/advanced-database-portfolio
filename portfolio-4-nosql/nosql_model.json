@@ -1,0 +1,26 @@
+[
+  {
+    "transaction_id": "TXN_987654321",
+    "timestamp": "2026-10-30T02:00:00Z",
+    "sender": {
+      "account_number": "0146456797",
+      "name": "Shotayo David"
+    },
+    "receiver": {
+      "account_number": "7876543209",
+      "name": "Quadri Suffianu"
+    },
+    "amount": 5000.00,
+    "currency": "NGN",
+    "status": "COMPLETED",
+    "device_info": {
+      "ip_address": "192.168.1.15",
+      "device_type": "Mobile_Android",
+      "app_version": "v2.4.1"
+    },
+    "metadata": {
+      "location": "Lagos, Nigeria",
+      "flagged_for_review": false
+    }
+  }
+]
