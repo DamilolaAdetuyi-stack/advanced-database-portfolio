@@ -1,4 +1,4 @@
-MIT 8103 Advanced Database Management Systems: Portfolio Final Documentation
+**MIT 8103 Advanced Database Management Systems: Portfolio Final Documentation**
 
 Student ID: 301871009
 Project Title: RichPay Fintech Database Engine
@@ -7,10 +7,10 @@ Student Name: Damilola Adetuyi
 
 GitHub Repository Link: https://github.com/DamilolaAdetuyi-stack/advanced-database-portfolio
 
-Executive Summary
+**Executive Summary**
 The RichPay Fintech Platform is an enterprise-grade database solution designed to support secure, scalable, and high-performance financial transactions. This portfolio documents the complete lifecycle of the platform's data engine across five core areas: relational database design and normalization, query optimization, transactional concurrency control, NoSQL document integration, and cloud-distributed database architecture.
 
-1. Relational Database Design and Normalization
+**1. Relational Database Design and Normalization**
 Overview
 For the core platform, I designed a relational database schema for RichPay, a digital banking application that manages user profiles, financial accounts, and transaction records.
 
@@ -45,7 +45,7 @@ Below is the ER diagram showing table structures, primary keys, foreign keys, an
 
 
 
-2. Query Processing and Optimization
+**2. Query Processing and Optimization**
 Implementation & Testing Script To evaluate query execution behavior, I created queries.sql containing sample data and EXPLAIN ANALYZE commands:
 EXPLAIN ANALYZE 
 EXPLAIN ANALYZE 
@@ -62,7 +62,7 @@ SQL     CREATE INDEX idx_transactions_sender ON Transactions(sender_account_id);
 SQL Script Reference Below is the committed queries.sql script containing data setup, indexing, and performance queries:
  
 
-3. Transaction Management and Concurrency Control
+**3. Transaction Management and Concurrency Control**
 ACID Integrity & Transfer Safety
 Handling money requires strict atomic operations—a balance deduction and balance addition must succeed together or fail together. I wrote SQL scripts demonstrating COMMIT and ROLLBACK handling.
 
@@ -81,7 +81,7 @@ VALUES (1, 2, 5000.00, 'Transfer');
 COMMIT;
 SQL     
 
-4. NoSQL Integration and Document Modeling
+**4. NoSQL Integration and Document Modeling**
 Relational vs. NoSQL
 While SQL tables handle core financial ledger balances, a NoSQL document database (like MongoDB) is better suited for unstructured logs, security telemetry, and fast activity feeds.
 
@@ -92,7 +92,7 @@ I designed a JSON document schema (nosql_model.json) that embeds sender/receiver
 Storing device metadata in a NoSQL document avoids cluttering SQL tables with dynamic columns that change frequently across mobile app updates.
 
 
-5. Distributed and Cloud Database Architecture
+**5. Distributed and Cloud Database Architecture**
 High Availability & Replication
 To keep the application running 24/7 without downtime:
 
@@ -105,11 +105,11 @@ Horizontal Scaling (Sharding)
 The database uses customer_id as a Sharding Key to split user records and transaction histories across independent database nodes, preventing hardware bottlenecks as user sign-ups grow.
 
 
-Conclusion
+**Conclusion**
 This project covers the full lifecycle of a database engine for a fintech application. By combining 3NF relational design, query indexing, ACID-compliant transaction blocks, NoSQL document logging, and cloud replication strategies, the platform guarantees data integrity, quick search queries, and high availability.
 
 
-Declaration on the Use of Artificial Intelligence (AI)
+**Declaration on the Use of Artificial Intelligence (AI)**
 In accordance with academic and professional integrity guidelines, I declare the use of AI tools during the completion of this database portfolio:
 
 
