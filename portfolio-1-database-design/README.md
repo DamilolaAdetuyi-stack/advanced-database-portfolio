@@ -1,6 +1,6 @@
 # Portfolio 1: Database Design and Modelling
 
-## Case Study: ApexPay Fintech
+## Case Study: RichPay Fintech
 RichPay is a digital banking platform designed to facilitate user registration, bank account management, deposits, withdrawals, and direct peer-to-peer transfers.
 
 ## Entity-Relationship (ER) Architecture
